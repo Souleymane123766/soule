@@ -1,0 +1,140 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.in4
+{
+	background: url('Pexels Videos 1722882.mp4');
+}
+
+.in .i a img
+{
+	height: 200px;
+	width: 350px;
+}
+.d 
+{
+	display: flex;
+	justify-content: space-between;
+}
+.aye .adr1 {
+	margin-left: 70px;
+	font-family: 'Cormorant Garamond', serif;
+;	justify-content: space-around;
+	font-size: 30px;
+	
+
+}
+.aye .adr2 {
+	margin-left: 70px;
+font-family: 'Cormorant Garamond', serif;
+	justify-content: space-around;
+		font-size: 30px;
+	
+
+}
+.aye .E {
+	margin-left: 70px;
+font-family: 'Cormorant Garamond', serif;
+	justify-content: space-around;
+		font-size: 30px;
+	
+
+}
+.ecriture{
+	font-family: 'Cormorant Garamond', serif;
+	text-align:center;
+	position: relative;
+	
+}
+ .ecriture .pre{
+font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+}
+.ecriture .pre2{
+font-family: 'Cormorant Garamond', serif;
+	font-size: 40px;
+	color: crimson;
+
+}
+.pre2 span{
+	color: black;
+	font-weight: 500px;
+	font-size: 50px;
+}
+footer{
+	position:absolute;
+	
+	left: 0;
+	right: 0;
+	background-color: #111;
+	height: auto;
+	width: 100%;
+	font-family: "Open sans";
+	padding-top: 40px;
+	color: #fff;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content h1
+{
+	font-size: 1.8rem;
+	font-weight: 400px;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+.footer-content p
+{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 25px;
+	font-size: 14px;
+}
+.socials
+{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+.socials li
+{
+	margin: 0 10px;
+}
+.socials a{
+	color: #fff;
+}
+.socials a i{
+	font-size: 1.1rem;
+	transition: color 4s ease;
+}
+.socials li a :hover i{
+	color: blue;
+}
+.footer-bottom
+{
+	background:#0000;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-bottom p {
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer-bottom span
+{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}

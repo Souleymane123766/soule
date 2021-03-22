@@ -1,0 +1,254 @@
+*{
+	padding:0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;}
+.navbar{
+width:100%;
+position: fixed;
+padding-bottom: 20px;
+background-color: #0a3d62;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.MENU{
+
+	text-align: center;
+	
+
+}
+.MENU li{
+	display: inline-block;
+
+}
+.MENU li a{
+	color: white;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 40px;
+	padding-top: 10px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition: color 1s;
+}
+.MENU li a:hover{
+	color: purple;
+}
+.sous{
+	display: none;
+	position: absolute;
+}
+.MENU li:hover .sous{
+	display: block;
+}
+.sous li{
+	width: 100%;
+	text-align: center;
+	background-color: #eb2f06;
+	border:3px solid #0a3d62;
+}
+.uno{
+	display: flex;
+	background:url('pexels-rodrigo-souza-2531709.jpg');
+	padding-top: 90px;
+	
+}
+.uno li
+{
+	text-align: center;
+	color: white;
+	font-weight: 500px;
+	font-family: 'Bungee Shade', cursive;
+	padding-top: 20px;
+	font-size: 35px;
+}
+.uno .gauche
+{
+	height: 500px;
+	width: 30%;
+	margin-left: 10px;
+}
+
+.uno .droite{
+	height: 100%;
+	width: 70%;
+	margin-left:40px;
+
+}
+.villas{
+	display: flex;
+	height: 20%;
+	width: 50%;
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+        color:white;
+		font-size: 20px;
+		padding-top: 15px;
+	padding-left:40px;
+}
+.villas img{
+	height: 200px;
+	width: 350px;
+	padding: 3px 3px 3px 3px;
+	border: 1px solid crimson;
+	border-radius: 9px;
+	
+}
+.vill{
+	padding-right:10px;
+	background-color: black;
+	
+
+
+}
+.a
+{
+	background-color: black;
+}
+ .text
+{
+	color: white;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 20px;
+
+}
+.villas2{
+display: flex;
+font-family: 'Bungee Shade', cursive;
+padding-top: 15px;
+	height: 20%;
+	width: 50%;
+	text-align: center;
+	color: white;
+		font-size: 20px;
+	padding-left:40px;
+
+}
+.villas2 img
+{
+	height: 200px;
+	width: 350px;
+	width: 350px;
+	padding: 3px 3px 3px 3px;
+	border-radius: 9px;
+	border: 2px solid crimson;
+
+}
+.b{
+		background-color:black;
+
+}
+.text2{
+	font-family: 'Bungee Shade', cursive;
+		color: white;
+	font-size: 20px;
+
+
+}
+.ville
+{
+	padding-right:10px;
+	background-color: black;
+}
+.typ 
+{
+	height: 700px;
+	background:#0c2461
+	;
+	padding-top: 20px;
+}
+.t 
+{
+	display: flex;
+	justify-content: space-around;
+}
+.te 
+{
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+		color: white;
+}
+.t h1 
+{
+	color: white;
+	font-size: 20px;
+}
+h2
+{
+color: white;
+font-size: 20px;
+font-weight: 400;
+}
+footer{
+	position:absolute;
+	
+	left: 0;
+	right: 0;
+	background-color: #111;
+	height: auto;
+	width: 100%;
+	font-family: "Open sans";
+	padding-top: 40px;
+	color: #fff;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content h1
+{
+	font-size: 1.8rem;
+	font-weight: 400px;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+.footer-content p
+{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 25px;
+	font-size: 14px;
+}
+.socials
+{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+.socials li
+{
+	margin: 0 10px;
+}
+.socials a{
+	color: #fff;
+}
+.socials a i{
+	font-size: 1.1rem;
+	transition: color 4s ease;
+}
+.socials li a :hover i{
+	color: blue;
+}
+.footer-bottom
+{
+	background:#0000;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-bottom p {
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer-bottom span
+{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}

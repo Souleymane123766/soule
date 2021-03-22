@@ -1,0 +1,383 @@
+*{
+	padding:0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family:Times New Roman;
+}
+
+
+/****************************/
+.d1{
+	display: flex;
+	justify-content: space-around;
+	word-spacing: 10px;
+	position: relative;
+	padding-top: 40px;
+}
+.d1 li a {
+	font-size: 45px;
+	font-weight: 400;
+	font-family: 'Bungee Shade', cursive;
+	color: white;
+		
+}
+.d2{
+
+	background-color: #3742fa;
+	border-radius: 10px;
+	
+}
+ .d2 li a:hover{
+color: #eccc68;
+background-color:#f5f6fa; 
+
+}
+
+.d3{
+	background-color: #ff6b81;
+}
+.d1 .d3 li a:hover
+{
+	color:red;
+	background-color: #4b6584;
+}
+
+
+
+
+
+	
+	
+
+
+
+
+.home{
+	height:1000px;
+	background: url('pexels-irina-iriser-1366957.jpg');
+			
+}
+.about{
+	
+	background-color: #00EDD9;
+}
+.about .title1{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline ;
+	color: blue;
+}
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 6
+	0px;
+}
+.about .div-left{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+
+.about .div-left img{
+	height: 450px;
+	width: 400px;
+	border-radius: 15px;
+	padding-top: 25px;
+
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom:10px;
+	color: blue;
+
+}
+.about .div-right .text span{
+	color: crimson;
+}
+.about .div-right p{
+	font-size: 33px;
+	text-align: justify;
+	padding-right: 200PX;
+	font-family: 'Codystar', cursive;
+}
+.about .about-content .button-two{
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: crimson;
+	color: white;
+	border:2px solid crimson;
+	padding: 10px 40px;
+	border-radius: 20px;
+}
+.about .about-content .button-two:hover{
+	color: blue;
+	background-color:orange;
+	border-color: violet;
+}
+.souvenir .ecriture{
+	text-align:center;
+	position: relative;
+	
+}
+  .pre{
+	font-family: Times New Roman;
+    font-size: 50px;
+}
+.pre2{
+	font-family: cursive;
+	font-size: 30px;
+	color: crimson;
+
+}
+.pre2 span{
+	color: black;
+	font-size: 40px;
+}
+
+.famillyphoto{
+	display: flex;
+	height: 500px;
+	width: 400px;
+	text-align: center;
+	padding-top: 80px;
+	margin-left: 140px;
+
+
+
+}
+
+.famillyphoto img{
+	border-radius:70% ;
+	height: 300px;
+	width: 300px;
+	border:3px solid crimson;
+}
+
+.premier{
+height: 480px;
+	text-align: center;
+	background-color:black;
+	border-radius: 20px;
+	margin-right:5px;
+		padding: 20px 20px 20px 20px;
+	margin-left: 30px;
+
+}
+.two{
+	height: 480px;
+	text-align: center;
+	background-color:black;
+	border-radius: 20px;
+	margin-right:5px;
+		padding: 20px 20px 20px 20px;
+	}
+.trois{
+	height: 480px;
+	text-align: center;
+	background-color:black;
+	border-radius: 20px;
+	margin-right:5px;
+	padding: 20px 20px 20px 20px;
+}
+.text{
+	color: white;
+	font-size: 27px;
+	font-size: 500;
+	font-family: 'Pattaya', sans-serif;
+	}
+/***********************/
+.adressage{
+	display: flex;
+	
+}
+.G{
+	font-size: 25px;
+	font-weight: 900;
+	font-family: cursive;
+	margin-bottom: 15px;
+	margin-left: 70px;
+	text-decoration:underline;
+	background-color: #bdc3c7;
+	
+}
+ .adressage p{
+	justify-content: center;
+	width: 400px;
+	padding-bottom: 30px;
+	word-spacing: 12px;
+	margin-left: 70px;
+	font-size: 25px;
+	
+}
+.M{
+margin-left:  70px;
+margin-bottom: 200px;
+	
+
+}
+.aye .adr1 {
+	margin-left: 70px;
+	font-family: 'Oleo Script', cursive;
+	justify-content: space-around;
+	font-size: 25px;
+	
+
+}
+.aye .adr2 {
+	margin-left: 70px;
+	font-family: 'Oleo Script', cursive;
+	justify-content: space-around;
+		font-size: 25px;
+	
+
+}
+.aye .E {
+	margin-left: 70px;
+	font-family: 'Oleo Script', cursive;
+	justify-content: space-around;
+		font-size: 25px;
+	
+
+}
+.m0{
+padding-bottom: 10px;
+font-size: 23px;
+font-weight: 600;
+font-family: cursive;
+text-decoration: underline ;
+background-color: #bdc3c7;
+margin-bottom: 5px;
+}
+.m1{
+	padding-bottom: 3px;
+	
+}
+.m2{
+	padding-bottom: 8px;
+}
+.NAME{
+	height:20px;
+	width: 200px;
+}
+.SUBJECT{
+	height:20px;
+	width: 200px;
+}
+.merci{
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 200;
+	background-color: green;
+	color: white;
+	border:2px solid crimson;
+	padding: 10px 40px;
+	border-radius: 10px;
+}
+.merci:hover{
+	background-color: blue;
+	border:white;
+}
+.o{
+margin-left: 100px;
+padding-top:40px;
+}
+.i{
+	height: 20px;
+	width: 200px;
+}
+.E span {
+	color: crimson;
+	font-size: 55px;
+
+}
+.debut p
+{
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Oleo Script', cursive;
+	justify-content: justify;
+}
+footer{
+	position:absolute;
+	
+	left: 0;
+	right: 0;
+	background-color: #111;
+	height: auto;
+	width: 100%;
+	font-family: "Open sans";
+	padding-top: 40px;
+	color: #fff;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content h1
+{
+	font-size: 1.8rem;
+	font-weight: 400px;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+.footer-content p
+{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 25px;
+	font-size: 14px;
+}
+.socials
+{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+.socials li
+{
+	margin: 0 10px;
+}
+.socials a{
+	color: #fff;
+}
+.socials a i{
+	font-size: 1.1rem;
+	transition: color 4s ease;
+}
+.socials li a :hover i{
+	color: blue;
+}
+.footer-bottom
+{
+	background:#0000;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-bottom p {
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer-bottom span
+{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
+
